@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is an AST?"
+title:  "Under the Hood: What is an AST?"
 date:   2014-08-02 16:40:05
 categories: [ast, esprima]
 ---
