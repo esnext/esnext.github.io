@@ -185,7 +185,7 @@ And here's the resulting AST:
 
 Wow, that looks remarkably like the JSON version of the outline we created! Some of the names are a little different, but the structure is nearly the same. Also, there's more information in this version, presumably there to cover syntax or use cases we haven't thought of yet.
 
-This format was established by Mozilla and more information can be found at their [Parser API][parser-api] page. To try this out yourself, open your browser console for this page and try `esprima.parse("var a = [1, 'n'];")`.
+This format was established by Mozilla and more information can be found at their [Parser API][parser-api] page. To try this out yourself, open your browser console for this page and try `esprima.parse("var a = [1, 'n'];")`. What do you get when you parse the `fib` function above?
 
 ### Doing Something with an AST
 
