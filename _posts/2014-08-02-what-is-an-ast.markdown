@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is an AST?"
-date:   2014-07-31 16:40:05
+date:   2014-08-02 16:40:05
 categories: [ast, esprima]
 ---
 
