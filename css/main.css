@@ -441,3 +441,13 @@ h5:hover .header-link,
 h6:hover .header-link {
   opacity: 1;
 }
+
+/* footnotes */
+/* ----------------------------------------------------------*/
+
+.footnotes {
+  font-size: 13px;
+  color: #666;
+  border-top: solid #ddd 1px;
+  padding-top: 7px;
+}
