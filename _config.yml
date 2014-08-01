@@ -1,0 +1,12 @@
+# Site settings
+title: esnext
+email: esnext@brian-donovan.com
+description: "News, updates, and tidbits about the esnext project."
+baseurl: ""
+url: "https://esnext.github.io"
+twitter_username: esnextjs
+github_username:  esnext
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
