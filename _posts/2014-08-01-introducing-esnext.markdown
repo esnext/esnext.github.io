@@ -12,7 +12,7 @@ Of course, by that time people had started "transpiling" existing languages<sup>
 
 ### Moving the Language Forward
 
-Transpiling can give us more than the ability to run other languages in a JavaScript runtime. It gives us the ability to experiment with new JavaScript language features that are not yet implemented as long as we can find a way to represent the behavior using the language features that exist today. This is what esnext is for<sup><a href="#footnote-3">3</a></sup>.
+Transpiling can give us more than the ability to run other languages in a JavaScript runtime. It gives us the ability to experiment with new JavaScript language features that are not yet implemented as long as we can find a way to represent the behavior using the language features that exist today. This is what [esnext][esnext] is for<sup><a href="#footnote-3">3</a></sup>.
 
 What we want is to give developers the ability to try out the proposed features in upcoming versions of JavaScript in their own applications, libraries, etc. Once there is real-world usage we will better understand how the features *should* work before they are set in stone, allowing us, in a real sense, to help shape the language that we use every day.
 
