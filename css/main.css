@@ -408,3 +408,36 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* header links */
+/* ----------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+.header-link {
+  position: absolute;
+  left: -0.8em;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  -ms-transition: opacity 0.2s ease-in-out 0.1s;
+  -o-transition: opacity 0.2s ease-in-out 0.1s;
+  transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h1:hover .header-link,
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+}
