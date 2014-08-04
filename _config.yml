@@ -11,3 +11,11 @@ github_username:  esnext
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 future: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      author: "Brian Donovan"
