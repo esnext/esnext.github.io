@@ -166,10 +166,11 @@ literalCount(ast); // 2
 
 {% endhighlight %}
 
-That's not too bad. But what does `visit` look like? That's left as an [exercise for the reader][visit-exercise]. What else can you do with the `visit` function once you have it? What would it take to write an interpreter for some subset of JavaScript, like variables and basic math? The next post in this series will cover the tools esnext uses to process the AST once it's been parsed.
+That's not too bad. But what does `visit` look like? That's left as an [exercise for the reader][visit-exercise]. What else can you do with the `visit` function once you have it? What would it take to write an interpreter for some subset of JavaScript, like variables and basic math? The [next post][libraries] in this series will cover the tools esnext uses to process the AST once it's been parsed.
 
 [esnext]: https://github.com/esnext/esnext
 [esprima]: https://github.com/ariya/esprima.git
+[libraries]: {% post_url 2014-08-07-under-the-hood-libraries %}
 [parser-api]: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API
 [visit-exercise]: http://jsbin.com/yimapo/1/edit?js,output
 
